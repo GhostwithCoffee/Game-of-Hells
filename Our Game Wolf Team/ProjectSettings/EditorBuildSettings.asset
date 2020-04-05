@@ -4,5 +4,23 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/HubWorld.unity
+    guid: b7b7c07ac51dcb74aa063c1fd4b3c24f
+  - enabled: 1
+    path: Assets/Scenes/EgyptianHell.unity
+    guid: 59d292e315fc1624ab9e6d593e5140d1
+  - enabled: 1
+    path: Assets/Scenes/ClassicHell.unity
+    guid: 870668b7abeb1234caa9820a9dd7f476
+  - enabled: 1
+    path: Assets/Scenes/GreekHell.unity
+    guid: a45322f1f67c7a1419573d01e3df7c9d
+  - enabled: 1
+    path: Assets/Scenes/NordicHell.unity
+    guid: 26613e0fa1076ce42868de7376ebadfa
+  - enabled: 1
+    path: Assets/Scenes/NativeAmericanHell.unity
+    guid: 904f7b710502e674080e5cf6dea1f273
   m_configObjects: {}

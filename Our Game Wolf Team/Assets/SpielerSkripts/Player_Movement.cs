@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Movment : MonoBehaviour
+public class Player_Movement : MonoBehaviour
 {
     public float speed = 0.5f;
     // Start is called before the first frame update
@@ -24,7 +24,6 @@ public class Movment : MonoBehaviour
         if (Input.GetKey("w"))
         {
             newPos.y += speed * Time.deltaTime;
-            Debug.Log("W ingeputtet");
         }
         if (Input.GetKey("s"))
         {
