@@ -37,7 +37,7 @@ public class Player_Movement : MonoBehaviour
         {
             newPos.x += speed * Time.deltaTime;
         }
-        transform.position = Vector3.MoveTowards(transform.position, newPos, speed * Time.deltaTime); ;
+        transform.position = Vector3.MoveTowards(transform.position, newPos, speed * Time.deltaTime); 
     }
 
 }
