@@ -5,15 +5,15 @@ using UnityEngine;
 public class Enemy_FollowKI : MonoBehaviour
 {
 
-    private GameObject player;
-    public float speed = 25;
+    private Transform player;
+    public float speed = 5;
     // Start is called before the first frame update
     void Start()
     {
         //Setting the player object, that the enemy is following
         if (player == null)
         {
-            player = GameObject.Find("Player");
+            player = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>(); ;
         }
     }
 
@@ -21,7 +21,7 @@ public class Enemy_FollowKI : MonoBehaviour
     void Update()
     {
         //goes to the position of the player.
-        Vector3 positionPlayer = player.transform.position;
+        Vector3 positionPlayer = player.position;
         transform.position = Vector3.MoveTowards(transform.position, positionPlayer, speed * Time.deltaTime);
     }
 }
